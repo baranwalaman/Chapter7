@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PS2</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        header{
+            background-color: black;
+            color: #ffffff;
+            grid-template-columns: auto auto auto auto;
+            padding: 20px 20px;
+        }
+        li{
+            display: inline-grid;
+            padding: 0px 50px;
+        }
+        .box1{
+            background-color: red;
+            /* height: 200px;
+            width: 200px; */
+        }
+        .box2{
+            background-color: rgb(1, 41, 242);
+            /* height: 200px;
+            width: 200px; */
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 300px 300px;
+            grid-template-rows: 300px 300px;
+            background-color: rgb(7, 210, 255);
+            height: 50vh;
+            width: 100%;
+            justify-content: space-around;
+            padding: 80px 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <img src="img.jpeg" width="10px" alt="">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+    <div class="box1">box1</div>
+    <div class="box2">box2</div>
+    </div>
+</body>
+</html>
